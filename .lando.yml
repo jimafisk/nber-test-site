@@ -1,0 +1,12 @@
+name: nber-workflow
+recipe: drupal8
+config:
+  webroot: .
+  drush: global:8.1.15
+  drupal: true
+  xdebug: true
+services:
+  appserver:
+    run:
+      - "cd $LANDO_MOUNT && composer install"
+        #- "cd $LANDO_MOUNT && drush si standard --config-dir=sites/default/files/config__mVY_K3V4Tcvnc7D52hBAB1HkObrmuT0iL4HfRhqvzv7ghokDkecdjUisp2oLSrcjZEISuE0ww/sync/ --account-name=admin --account-pass=admin -y"
