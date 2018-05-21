@@ -9,4 +9,4 @@ services:
   appserver:
     run:
       - "cd $LANDO_MOUNT && composer install"
-        #- "cd $LANDO_MOUNT && drush si standard --config-dir=sites/default/files/config__mVY_K3V4Tcvnc7D52hBAB1HkObrmuT0iL4HfRhqvzv7ghokDkecdjUisp2oLSrcjZEISuE0ww/sync/ --account-name=admin --account-pass=admin -y"
+      - "cd $LANDO_MOUNT && drush si standard --config-dir=sites/default/files/config_fkIr-vCzuRh-3g9BrfnYSLZyywBsJyHlBsPGt4oZd1FNVx2BWfjFuHEoS6pLqw12GFAHpfpDkg/sync/ --account-name=admin --account-pass=admin -y"
