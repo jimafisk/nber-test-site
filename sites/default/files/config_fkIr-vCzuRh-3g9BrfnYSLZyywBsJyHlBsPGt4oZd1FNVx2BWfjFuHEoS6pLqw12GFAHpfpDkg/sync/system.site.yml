@@ -1,0 +1,14 @@
+uuid: 12064b5b-8c1c-4d10-87d8-ffc42ee6a938
+name: 'NBER Test Site'
+mail: jim.fisk@jantcu.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
