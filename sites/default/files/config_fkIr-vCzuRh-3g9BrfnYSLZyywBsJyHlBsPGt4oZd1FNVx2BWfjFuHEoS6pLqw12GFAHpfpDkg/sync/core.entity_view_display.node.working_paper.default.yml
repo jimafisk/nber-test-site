@@ -1,0 +1,27 @@
+uuid: 3a394238-5f02-406e-8722-c722ecb05fc2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.working_paper.field_attachment
+    - node.type.working_paper
+  module:
+    - file
+    - user
+id: node.working_paper.default
+targetEntityType: node
+bundle: working_paper
+mode: default
+content:
+  field_attachment:
+    weight: 102
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

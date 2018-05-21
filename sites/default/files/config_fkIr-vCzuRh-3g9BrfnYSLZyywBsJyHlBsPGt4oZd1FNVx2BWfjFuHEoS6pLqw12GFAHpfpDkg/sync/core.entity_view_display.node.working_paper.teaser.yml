@@ -1,0 +1,20 @@
+uuid: 40304685-87a2-4365-a7a8-228aded35b57
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.working_paper.field_attachment
+    - node.type.working_paper
+  module:
+    - user
+id: node.working_paper.teaser
+targetEntityType: node
+bundle: working_paper
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_attachment: true

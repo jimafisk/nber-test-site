@@ -1,0 +1,27 @@
+uuid: 99a3ccce-fb17-4fb6-b647-6d785af6a27b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attachment
+    - node.type.working_paper
+  module:
+    - file
+id: node.working_paper.field_attachment
+field_name: field_attachment
+entity_type: node
+bundle: working_paper
+label: Attachment
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt pdf doc docx odt rtf img png jpg csv ppt pptx'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file
