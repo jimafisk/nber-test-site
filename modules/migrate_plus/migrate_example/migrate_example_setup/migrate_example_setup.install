@@ -347,7 +347,7 @@ function migrate_example_beer_data_node() {
     ],
     [
       99999997,
-      'Boddington',
+      'Boddington TESTR',
       'English occasionally get something right',
       'A treat',
       'United Kingdom',
